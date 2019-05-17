@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\evgeny\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\evgeny\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TowerDefence.1837019647.00" t="ExcludeRecursive" />
+    <e p="C:\Users\evgeny\RiderProjects\TowerDefence" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TowerDefence" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controller" t="Include">
+          <e p="MainController.cs" t="Include" />
+        </e>
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="AttackingEntity.cs" t="Include" />
+          <e p="AttackingEntity_Should.cs" t="Include" />
+          <e p="Map.cs" t="Include" />
+          <e p="Map_should.cs" t="Include" />
+          <e p="SinglyLinkedList.cs" t="Include" />
+          <e p="TowerEntity.cs" t="Include" />
+          <e p="WideSearch.cs" t="Include" />
+          <e p="WideSearchShould.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="TowerDefence.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TowerDefence.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

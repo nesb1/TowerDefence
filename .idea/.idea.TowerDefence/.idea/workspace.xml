@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="512fc229-e56e-42d2-b97d-a19c11e79632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <marker date="1558009047370" expanded="false" signature="6:124" ph="..." />
+                <marker date="1558009047370" expanded="true" signature="148:509" ph="{...}" />
+                <marker date="1558009047370" expanded="true" signature="175:507" ph="{...}" />
+                <marker date="1558009047370" expanded="true" signature="190:280" ph="/// The main entry point for the application. ... " />
+                <marker date="1558009047370" expanded="true" signature="327:501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <marker date="1558083160319" expanded="true" signature="6:69" ph="..." />
+                <marker date="1558083160319" expanded="true" signature="99:822" ph="{...}" />
+                <marker date="1558083160319" expanded="true" signature="122:820" ph="{...}" />
+                <marker date="1558083160319" expanded="true" signature="224:452" ph="{...}" />
+                <marker date="1558083160319" expanded="true" signature="736:805" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <marker date="1558083952773" expanded="true" signature="6:44" ph="..." />
+                <marker date="1558083952773" expanded="true" signature="74:425" ph="{...}" />
+                <marker date="1558083952773" expanded="true" signature="128:423" ph="{...}" />
+                <marker date="1558083952773" expanded="true" signature="182:408" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+              <folding>
+                <marker date="1558083952723" expanded="true" signature="6:173" ph="..." />
+                <marker date="1558083952723" expanded="true" signature="204:1468" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="239:1466" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="498:586" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="627:1125" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="684:1115" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="913:1100" ph="/* Когда построили новую башню уведомить сущность ... */" />
+                <marker date="1558083952723" expanded="true" signature="1170:1450" ph="{...}" />
+                <marker date="1558083952723" expanded="true" signature="1232:1440" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+              <folding>
+                <marker date="1558082859544" expanded="true" signature="6:137" ph="..." />
+                <marker date="1558082859544" expanded="true" signature="167:1648" ph="{...}" />
+                <marker date="1558082859544" expanded="true" signature="197:1646" ph="{...}" />
+                <marker date="1558082859544" expanded="true" signature="274:1640" ph="{...}" />
+                <marker date="1558082859544" expanded="true" signature="564:1604" ph="{...}" />
+                <marker date="1558082859544" expanded="true" signature="1039:1590" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1558083160267" expanded="true" signature="6:68" ph="..." />
+                <marker date="1558083160267" expanded="true" signature="98:653" ph="{...}" />
+                <marker date="1558083160267" expanded="true" signature="158:651" ph="{...}" />
+                <marker date="1558083160267" expanded="true" signature="234:645" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+              <folding>
+                <marker date="1558083952670" expanded="true" signature="6:105" ph="..." />
+                <marker date="1558083952670" expanded="true" signature="140:795" ph="{...}" />
+                <marker date="1558083952670" expanded="true" signature="174:793" ph="{...}" />
+                <marker date="1558083952670" expanded="true" signature="243:599" ph="{...}" />
+                <marker date="1558083952670" expanded="true" signature="660:787" ph="{...}" />
+                <marker date="1558083952670" expanded="true" signature="720:777" ph="/* notify view ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <marker date="1558083952748" expanded="true" signature="28:206" ph="{...}" />
+                <marker date="1558083952748" expanded="true" signature="59:204" ph="{...}" />
+                <marker date="1558083952748" expanded="true" signature="99:152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+              <folding>
+                <marker date="1558083160340" expanded="true" signature="6:44" ph="..." />
+                <marker date="1558083160340" expanded="true" signature="74:793" ph="{...}" />
+                <marker date="1558083160340" expanded="true" signature="122:791" ph="{...}" />
+                <marker date="1558083160340" expanded="true" signature="231:353" ph="{...}" />
+                <marker date="1558083160340" expanded="true" signature="409:561" ph="{...}" />
+                <marker date="1558083160340" expanded="true" signature="623:785" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearchShouild.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/Map.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controller" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="512fc229-e56e-42d2-b97d-a19c11e79632" name="Default Changelist" comment="" />
+      <created>1558009031634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558009031634</updated>
+      <workItem from="1558009043197" duration="8429000" />
+      <workItem from="1558058628119" duration="2623000" />
+      <workItem from="1558076074110" duration="7573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18625000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978677" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32942432" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32942432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer Toolbox" order="3" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Form1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558009047178" expanded="false" signature="6:213" ph="..." />
+            <marker date="1558009047178" expanded="true" signature="237:369" ph="{...}" />
+            <marker date="1558009047178" expanded="true" signature="277:367" ph="{...}" />
+            <marker date="1558009047178" expanded="true" signature="306:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="WinFormsEditor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <marker date="1558078982855" expanded="true" signature="6:100" ph="..." />
+            <marker date="1558078982855" expanded="true" signature="130:967" ph="{...}" />
+            <marker date="1558078982855" expanded="true" signature="166:965" ph="{...}" />
+            <marker date="1558078982855" expanded="true" signature="376:504" ph="{...}" />
+            <marker date="1558078982855" expanded="true" signature="541:959" ph="{...}" />
+            <marker date="1558078982855" expanded="true" signature="742:860" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <marker date="1558083160340" expanded="true" signature="6:44" ph="..." />
+            <marker date="1558083160340" expanded="true" signature="74:793" ph="{...}" />
+            <marker date="1558083160340" expanded="true" signature="122:791" ph="{...}" />
+            <marker date="1558083160340" expanded="true" signature="231:353" ph="{...}" />
+            <marker date="1558083160340" expanded="true" signature="409:561" ph="{...}" />
+            <marker date="1558083160340" expanded="true" signature="623:785" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1558083952773" expanded="true" signature="6:44" ph="..." />
+            <marker date="1558083952773" expanded="true" signature="74:425" ph="{...}" />
+            <marker date="1558083952773" expanded="true" signature="128:423" ph="{...}" />
+            <marker date="1558083952773" expanded="true" signature="182:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <marker date="1558009047370" expanded="false" signature="6:124" ph="..." />
+            <marker date="1558009047370" expanded="true" signature="148:509" ph="{...}" />
+            <marker date="1558009047370" expanded="true" signature="175:507" ph="{...}" />
+            <marker date="1558009047370" expanded="true" signature="190:280" ph="/// The main entry point for the application. ... " />
+            <marker date="1558009047370" expanded="true" signature="327:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1558083160319" expanded="true" signature="6:69" ph="..." />
+            <marker date="1558083160319" expanded="true" signature="99:822" ph="{...}" />
+            <marker date="1558083160319" expanded="true" signature="122:820" ph="{...}" />
+            <marker date="1558083160319" expanded="true" signature="224:452" ph="{...}" />
+            <marker date="1558083160319" expanded="true" signature="736:805" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+          <folding>
+            <marker date="1558083952723" expanded="true" signature="6:173" ph="..." />
+            <marker date="1558083952723" expanded="true" signature="204:1468" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="239:1466" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="498:586" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="627:1125" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="684:1115" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="913:1100" ph="/* Когда построили новую башню уведомить сущность ... */" />
+            <marker date="1558083952723" expanded="true" signature="1170:1450" ph="{...}" />
+            <marker date="1558083952723" expanded="true" signature="1232:1440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <marker date="1558082859544" expanded="true" signature="6:137" ph="..." />
+            <marker date="1558082859544" expanded="true" signature="167:1648" ph="{...}" />
+            <marker date="1558082859544" expanded="true" signature="197:1646" ph="{...}" />
+            <marker date="1558082859544" expanded="true" signature="274:1640" ph="{...}" />
+            <marker date="1558082859544" expanded="true" signature="564:1604" ph="{...}" />
+            <marker date="1558082859544" expanded="true" signature="1039:1590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <marker date="1558083952748" expanded="true" signature="28:206" ph="{...}" />
+            <marker date="1558083952748" expanded="true" signature="59:204" ph="{...}" />
+            <marker date="1558083952748" expanded="true" signature="99:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <marker date="1558083952670" expanded="true" signature="6:105" ph="..." />
+            <marker date="1558083952670" expanded="true" signature="140:795" ph="{...}" />
+            <marker date="1558083952670" expanded="true" signature="174:793" ph="{...}" />
+            <marker date="1558083952670" expanded="true" signature="243:599" ph="{...}" />
+            <marker date="1558083952670" expanded="true" signature="660:787" ph="{...}" />
+            <marker date="1558083952670" expanded="true" signature="720:777" ph="/* notify view ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1558083160267" expanded="true" signature="6:68" ph="..." />
+            <marker date="1558083160267" expanded="true" signature="98:653" ph="{...}" />
+            <marker date="1558083160267" expanded="true" signature="158:651" ph="{...}" />
+            <marker date="1558083160267" expanded="true" signature="234:645" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

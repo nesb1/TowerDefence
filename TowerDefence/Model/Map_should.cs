@@ -11,7 +11,7 @@ namespace TowerDefence.Model
         [SetUp]
         public void initialize()
         {
-            map = new Map(1,1,new []{new Point( 0,0)},new []{new Point(1,1) });
+            map = new Map(1,1,new Point( 0,0),new Point(1,1),1);
             point = new Point(1, 0);
         }
         [Test]

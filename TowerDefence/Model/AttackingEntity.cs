@@ -1,40 +1,51 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Threading;
+using TowerDefence.Controller;
+using static TowerDefence.Model.WideSearch;
+
 
 namespace TowerDefence.Model
 {
     public class AttackingEntity
     {
+        public MainController CurrentController { get; set; }
+        public List<Point> CurrentPath { get; private set; }
         public int Speed { get; }
         public Point CurrentPosition { get; set; }
 
+        public void GetCurrentPath(Map map)
+        {
+            CurrentPath = FindPaths(map, CurrentPosition).ToList();
+        }
+
         public void GoToFinish(Map map)
         {
-            var visited = new HashSet<Point>();
-            var stack = new Stack<Point>();
-            stack.Push(CurrentPosition);
-            visited.Add(CurrentPosition);
-            while (stack.Count != 0)
+            foreach (var point in CurrentPath)
             {
-                var element = stack.Pop();
-                if (element.X < 0 || element.X >= map.MapCell.GetLength(0) || element.Y < 0 ||
-                    element.Y >= map.MapCell.GetLength(1) || map.IsTowerHere(element) || visited.Contains(element)) continue;
-                visited.Add(element);
-                for (var dy = -1; dy <= 1; dy++)
-                for (var dx = -1; dx <= 1; dx++)
-                {
-                    var newPoint = new Point {X = element.X + dx, Y = element.Y + dy};
-                    if (visited.Contains(newPoint)) continue;
-                    if (dx != 0 && dy != 0) continue;
-                    visited.Add(newPoint);
-                    if (dx != 0 && dy != 0) continue;
-                    stack.Push(new Point {X = element.X + dx, Y = element.Y + dy});
-                }
-                
-                map.TowersPoints.Add(new Point(1,0));
+                Thread.Sleep(1000);
+                CurrentPosition = point;
+                //notify view
+                if (point == map.FinishPosition) CurrentController.OnFinishReached(this);
+
+                //Когда построили новую башню уведомить сущность
+                //если новый поиск в ширину дал такой же результат, то ничего не менять,
+                // иначе запускать другой маршрут
+
             }
         }
+
+        public void OnTowersChange(Map map)
+        {
+            foreach (var point in map.TowersPoints)
+            {
+                if (CurrentPath.Contains(point))
+                    GetCurrentPath(map);
+                //не забить про удаление поинтов из листа, когда мы уже прошли эту клетку
+            }
+        }
+
+        
     }
 }
