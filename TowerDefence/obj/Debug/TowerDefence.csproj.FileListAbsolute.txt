@@ -1,0 +1,13 @@
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\TowerDefence.exe.config
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\TowerDefence.exe
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\TowerDefence.pdb
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\nunit.framework.dll
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\nunit.framework.pdb
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\bin\Debug\nunit.framework.xml
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.csprojAssemblyReference.cache
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.Properties.Resources.resources
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.csproj.GenerateResource.cache
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.csproj.CoreCompileInputs.cache
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.csproj.CopyComplete
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.exe
+C:\Users\evgeny\RiderProjects\TowerDefence\TowerDefence\obj\Debug\TowerDefence.pdb
