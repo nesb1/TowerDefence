@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512fc229-e56e-42d2-b97d-a19c11e79632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/Model/Cursor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/View/ScaledViewPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/View/ScenePainter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TowerDefence/View/TDForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Form1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/Model/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Properties/Resources.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/Properties/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/Properties/Settings.settings" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.Properties.Resources.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TowerDefence/obj/Debug/TowerDefence.pdb" afterDir="false" />
     </list>
@@ -27,99 +41,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Program.cs">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/View/ScenePainter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="275">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
-                <marker date="1558009047370" expanded="false" signature="6:124" ph="..." />
-                <marker date="1558009047370" expanded="true" signature="148:509" ph="{...}" />
-                <marker date="1558009047370" expanded="true" signature="175:507" ph="{...}" />
-                <marker date="1558009047370" expanded="true" signature="190:280" ph="/// The main entry point for the application. ... " />
-                <marker date="1558009047370" expanded="true" signature="327:501" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <marker date="1558083160319" expanded="true" signature="6:69" ph="..." />
-                <marker date="1558083160319" expanded="true" signature="99:822" ph="{...}" />
-                <marker date="1558083160319" expanded="true" signature="122:820" ph="{...}" />
-                <marker date="1558083160319" expanded="true" signature="224:452" ph="{...}" />
-                <marker date="1558083160319" expanded="true" signature="736:805" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <marker date="1558083952773" expanded="true" signature="6:44" ph="..." />
-                <marker date="1558083952773" expanded="true" signature="74:425" ph="{...}" />
-                <marker date="1558083952773" expanded="true" signature="128:423" ph="{...}" />
-                <marker date="1558083952773" expanded="true" signature="182:408" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-              <folding>
-                <marker date="1558083952723" expanded="true" signature="6:173" ph="..." />
-                <marker date="1558083952723" expanded="true" signature="204:1468" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="239:1466" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="498:586" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="627:1125" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="684:1115" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="913:1100" ph="/* Когда построили новую башню уведомить сущность ... */" />
-                <marker date="1558083952723" expanded="true" signature="1170:1450" ph="{...}" />
-                <marker date="1558083952723" expanded="true" signature="1232:1440" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-              <folding>
-                <marker date="1558082859544" expanded="true" signature="6:137" ph="..." />
-                <marker date="1558082859544" expanded="true" signature="167:1648" ph="{...}" />
-                <marker date="1558082859544" expanded="true" signature="197:1646" ph="{...}" />
-                <marker date="1558082859544" expanded="true" signature="274:1640" ph="{...}" />
-                <marker date="1558082859544" expanded="true" signature="564:1604" ph="{...}" />
-                <marker date="1558082859544" expanded="true" signature="1039:1590" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <marker date="1558083160267" expanded="true" signature="6:68" ph="..." />
-                <marker date="1558083160267" expanded="true" signature="98:653" ph="{...}" />
-                <marker date="1558083160267" expanded="true" signature="158:651" ph="{...}" />
-                <marker date="1558083160267" expanded="true" signature="234:645" ph="{...}" />
+                <marker date="1558690579007" expanded="false" signature="6:144" ph="..." />
+                <marker date="1558690579007" expanded="true" signature="168:2905" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="200:2903" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="737:851" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="894:999" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="1050:2130" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="1532:1984" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="2168:2897" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="2454:2874" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="2529:2860" ph="{...}" />
+                <marker date="1558690579007" expanded="true" signature="2625:2842" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,15 +65,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="810">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding>
-                <marker date="1558083952670" expanded="true" signature="6:105" ph="..." />
-                <marker date="1558083952670" expanded="true" signature="140:795" ph="{...}" />
-                <marker date="1558083952670" expanded="true" signature="174:793" ph="{...}" />
-                <marker date="1558083952670" expanded="true" signature="243:599" ph="{...}" />
-                <marker date="1558083952670" expanded="true" signature="660:787" ph="{...}" />
-                <marker date="1558083952670" expanded="true" signature="720:777" ph="/* notify view ... */" />
+                <marker date="1558690399948" expanded="true" signature="6:236" ph="..." />
+                <marker date="1558690399948" expanded="true" signature="271:2847" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="305:2845" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="671:947" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="992:1095" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1134:1307" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1172:1275" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1345:1935" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1435:1596" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1642:1808" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1718:1794" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="1966:2115" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="2035:2105" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="2178:2484" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="2307:2474" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="2544:2839" ph="{...}" />
+                <marker date="1558690399948" expanded="true" signature="2750:2829" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,11 +94,65 @@
         <entry file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <marker date="1558083952748" expanded="true" signature="28:206" ph="{...}" />
-                <marker date="1558083952748" expanded="true" signature="59:204" ph="{...}" />
-                <marker date="1558083952748" expanded="true" signature="99:152" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="6:40" ph="..." />
+                <marker date="1558682829446" expanded="true" signature="70:878" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="101:876" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="204:265" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="301:870" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="353:860" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="413:846" ph="{...}" />
+                <marker date="1558682829446" expanded="true" signature="726:827" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding>
+                <marker date="1558686861345" expanded="true" signature="6:88" ph="..." />
+                <marker date="1558686861345" expanded="true" signature="118:1207" ph="{...}" />
+                <marker date="1558686861345" expanded="true" signature="141:1205" ph="{...}" />
+                <marker date="1558686861345" expanded="true" signature="257:551" ph="{...}" />
+                <marker date="1558686861345" expanded="true" signature="924:1028" ph="{...}" />
+                <marker date="1558686861345" expanded="true" signature="1073:1190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Cursor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+              <folding>
+                <marker date="1558685808496" expanded="true" signature="6:106" ph="..." />
+                <marker date="1558685808496" expanded="true" signature="136:1629" ph="{...}" />
+                <marker date="1558685808496" expanded="true" signature="162:1627" ph="{...}" />
+                <marker date="1558685808496" expanded="true" signature="272:1620" ph="{...}" />
+                <marker date="1558685808496" expanded="true" signature="409:1586" ph="{...}" />
+                <marker date="1558685808496" expanded="true" signature="1353:1544" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+              <folding>
+                <marker date="1558682829511" expanded="true" signature="6:68" ph="..." />
+                <marker date="1558682829511" expanded="true" signature="98:718" ph="{...}" />
+                <marker date="1558682829511" expanded="true" signature="158:716" ph="{...}" />
+                <marker date="1558682829511" expanded="true" signature="234:710" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,15 +161,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            <state relative-caret-position="255">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
-                <marker date="1558083160340" expanded="true" signature="6:44" ph="..." />
-                <marker date="1558083160340" expanded="true" signature="74:793" ph="{...}" />
-                <marker date="1558083160340" expanded="true" signature="122:791" ph="{...}" />
-                <marker date="1558083160340" expanded="true" signature="231:353" ph="{...}" />
-                <marker date="1558083160340" expanded="true" signature="409:561" ph="{...}" />
-                <marker date="1558083160340" expanded="true" signature="623:785" ph="{...}" />
+                <marker date="1558682829418" expanded="true" signature="6:44" ph="..." />
+                <marker date="1558682829418" expanded="true" signature="74:876" ph="{...}" />
+                <marker date="1558682829418" expanded="true" signature="122:874" ph="{...}" />
+                <marker date="1558682829418" expanded="true" signature="264:442" ph="{...}" />
+                <marker date="1558682829418" expanded="true" signature="498:647" ph="{...}" />
+                <marker date="1558682829418" expanded="true" signature="709:868" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+              <folding>
+                <marker date="1558631826494" expanded="true" signature="6:44" ph="..." />
+                <marker date="1558631826494" expanded="true" signature="74:440" ph="{...}" />
+                <marker date="1558631826494" expanded="true" signature="128:438" ph="{...}" />
+                <marker date="1558631826494" expanded="true" signature="182:423" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+              <folding>
+                <marker date="1558687339181" expanded="true" signature="6:173" ph="..." />
+                <marker date="1558687339181" expanded="true" signature="204:1725" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="239:1723" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="568:769" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="807:895" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="932:1220" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="982:1101" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="1265:1555" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="1327:1545" ph="{...}" />
+                <marker date="1558687339181" expanded="true" signature="1592:1717" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowerDefence/View/TDForm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+              <folding>
+                <marker date="1558689429775" expanded="false" signature="6:173" ph="..." />
+                <marker date="1558689429775" expanded="true" signature="197:3660" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="230:3658" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="541:765" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="790:2609" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="1125:1395" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="1447:1717" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="1770:2046" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="2668:2747" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="2788:2855" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="2914:2983" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="3029:3102" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="3162:3652" ph="{...}" />
+                <marker date="1558689429775" expanded="true" signature="3214:3364" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -179,18 +242,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/22C94F06-2DCB-4CA3-A923-4A52A54BD0DA/45/8eefc820/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/67/9e8ab7a3/KeyEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TowerDefence/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TowerDefence/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/22C94F06-2DCB-4CA3-A923-4A52A54BD0DA/70/95242d44/Rectangle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/5b/224a6ffe/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/b0/ce4ee661/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/75/d57933f4/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/View/ScaledViewPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/View/ScenePainter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/f0/c8a06d3e/TableLayoutControlCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/View/TDForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/8a/bc9e8e80/Panel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/43/02679f2e/Padding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/15/9a129ddc/NativeWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/27/ee22cd7c/ScrollableControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TowerDefence/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,13 +280,26 @@
         <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearchShouild.cs" />
         <option value="$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs" />
         <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs" />
-        <option value="$PROJECT_DIR$/TowerDefence/Model/Map.cs" />
-        <option value="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" />
-        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" />
-        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" />
-        <option value="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/View/MyForm.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Form1.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/ScaledViewPanel.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/ScenePainter.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Form.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Program.cs" />
         <option value="$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/View/ScaledViewPanel.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Properties/Resources.resx" />
+        <option value="$PROJECT_DIR$/TowerDefence/Properties/Resources.Designer.cs" />
         <option value="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/Map_should.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/Cursor.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/Map.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/View/TDForm.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" />
+        <option value="$PROJECT_DIR$/TowerDefence/View/ScenePainter.cs" />
       </list>
     </option>
   </component>
@@ -242,12 +337,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
               <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controller" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="TowerDefence" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Model" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -255,14 +344,61 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Debug" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Debug" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="PNG" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="TowerDefence" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="bin" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Debug" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="PNG" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Default size" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TowerDefence/Images/crossair_black.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -281,23 +417,44 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TowerDefence/bin/Debug/TowerDefence.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TowerDefence/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dungeon.MyForm.Mainx" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="C:\Program Files\JetBrains\JetBrains Rider 2018.3.4\lib\ReSharperHost\JetLauncherILc.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TowerDefence/TowerDefence.csproj" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <option name="CLASS_NAME" value="Dungeon.MyForm" />
+      <option name="METHOD_NAME" value="Mainx" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Static Method.Dungeon.MyForm.Mainx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -311,12 +468,21 @@
       <updated>1558009031634</updated>
       <workItem from="1558009043197" duration="8429000" />
       <workItem from="1558058628119" duration="2623000" />
-      <workItem from="1558076074110" duration="7573000" />
+      <workItem from="1558076074110" duration="8253000" />
+      <workItem from="1558084791394" duration="2838000" />
+      <workItem from="1558100768728" duration="6470000" />
+      <workItem from="1558146574960" duration="22637000" />
+      <workItem from="1558617750822" duration="6472000" />
+      <workItem from="1558634780055" duration="14079000" />
+      <workItem from="1558674396278" duration="2283000" />
+      <workItem from="1558678425012" duration="3376000" />
+      <workItem from="1558682127827" duration="7938000" />
+      <workItem from="1558690551483" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18625000" />
+    <option name="totallyTimeSpent" value="85426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,25 +496,25 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34541577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872068" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32942432" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32845894" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32942432" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32942432" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.3272921" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,6 +523,34 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34541577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872068" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32845894" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.3272921" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer Toolbox" order="3" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -370,30 +564,49 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs</url>
+          <line>55</line>
+          <properties documentPath="$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs" initialLine="55">
+            <startOffsets>
+              <option value="1601" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1602" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs" initialLine="10">
+            <startOffsets>
+              <option value="310" />
+            </startOffsets>
+            <endOffsets>
+              <option value="311" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/TowerDefence/Controller/MainController.cs" initialLine="49">
+            <startOffsets>
+              <option value="1483" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1552" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Form1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1558009047178" expanded="false" signature="6:213" ph="..." />
-            <marker date="1558009047178" expanded="true" signature="237:369" ph="{...}" />
-            <marker date="1558009047178" expanded="true" signature="277:367" ph="{...}" />
-            <marker date="1558009047178" expanded="true" signature="306:361" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="WinFormsEditor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TowerDefence/Model/SinglyLinkedList.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -409,84 +622,631 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs">
+    <entry file="file://$PROJECT_DIR$/TowerDefence/View/MyForm.cs" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Form1.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Form1.cs" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/ScaledViewPanel.cs" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/ScenePainter.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/f0/c8a06d3e/TableLayoutControlCollection.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        <state relative-caret-position="357">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/22C94F06-2DCB-4CA3-A923-4A52A54BD0DA/45/8eefc820/Graphics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="3532" column="8" selection-start-line="3532" selection-start-column="8" selection-end-line="3532" selection-end-column="8" />
           <folding>
-            <marker date="1558083160340" expanded="true" signature="6:44" ph="..." />
-            <marker date="1558083160340" expanded="true" signature="74:793" ph="{...}" />
-            <marker date="1558083160340" expanded="true" signature="122:791" ph="{...}" />
-            <marker date="1558083160340" expanded="true" signature="231:353" ph="{...}" />
-            <marker date="1558083160340" expanded="true" signature="409:561" ph="{...}" />
-            <marker date="1558083160340" expanded="true" signature="623:785" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="0:302" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1558101009919" expanded="false" signature="310:568" ph="..." />
+            <marker date="1558101009919" expanded="true" signature="594:318067" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="599:715" ph="///   Инкапсулирует поверхность рисования GDI+. ... " />
+            <marker date="1558101009919" expanded="true" signature="796:318065" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="1131:1306" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="1312:1692" ph="///   Создает новый объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; из указанного дескриптора для контекста устро ... " />
+            <marker date="1558101009919" expanded="true" signature="1792:1983" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="1989:2322" ph="///   Возвращает объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; для заданного контекста устройств. ... " />
+            <marker date="1558101009919" expanded="true" signature="2528:2812" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="2818:3301" ph="///   Создает новый объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; из указанного дескриптора контекста устройств ... " />
+            <marker date="1558101009919" expanded="true" signature="3417:3794" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="3800:4143" ph="///   Создает новый объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; из указанного дескриптора окна. ... " />
+            <marker date="1558101009919" expanded="true" signature="4245:4353" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="4359:4676" ph="///   Создает новый объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; для указанного дескриптора окна. ... " />
+            <marker date="1558101009919" expanded="true" signature="4884:5173" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="5179:6047" ph="///   Создает новый объект &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; из указанного объекта &lt;see cref=&quot;T:System.Dra ... " />
+            <marker date="1558101009919" expanded="true" signature="6097:6726" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="6762:6836" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="6778:6830" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="6842:7148" ph="///   Возвращает дескриптор контекста устройства, связанный с данным объектом &lt;see cref=&quot;T:System.Drawing.Graphic ... " />
+            <marker date="1558101009919" expanded="true" signature="7273:7560" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="7566:8052" ph="///   Освобождает дескриптор контекста устройства, полученный в результате предыдущего вызова метода &lt;see cref=&quot;M ... " />
+            <marker date="1558101009919" expanded="true" signature="8144:8244" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="8250:8493" ph="///   Освобождает дескриптор контекста устройства, полученный в результате предыдущего вызова метода &lt;see cref=&quot;M ... " />
+            <marker date="1558101009919" expanded="true" signature="8620:8679" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="8685:8819" ph="///Освобождает дескриптор контекста устройства. ... " />
+            <marker date="1558101009919" expanded="true" signature="9014:9290" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="9296:9432" ph="///   Освобождает все ресурсы, используемые этим объектом &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="9458:9538" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="9580:10569" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="9694:9800" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="9875:10354" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="9996:10244" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="10123:10234" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="10381:10490" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="10504:10563" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="10575:10759" ph="///   Позволяет объекту попытаться освободить ресурсы и выполнить другие операции очистки, перед тем как он будет ... " />
+            <marker date="1558101009919" expanded="true" signature="10775:10814" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="10820:10988" ph="///   Вызывает принудительное выполнение всех отложенных графических операций и немедленно возвращается, не дожид ... " />
+            <marker date="1558101009919" expanded="true" signature="11012:11064" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="11070:11550" ph="///   Вызывает принудительное выполнение всех отложенных графических операций. При этом в соответствии с настройк ... " />
+            <marker date="1558101009919" expanded="true" signature="11598:11810" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="11816:12238" ph="///   Возвращает значение, задающее способ рисования составных изображений в данном объекте &lt;see cref=&quot;T:System.D ... " />
+            <marker date="1558101009919" expanded="true" signature="12281:13075" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="12297:12646" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="12656:13069" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="13081:13544" ph="///   Возвращает или задает начало координат при отрисовке данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot;  ... " />
+            <marker date="1558101009919" expanded="true" signature="13577:14178" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="13593:13920" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="13930:14172" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="14184:14624" ph="///   Возвращает или задает качество отрисовки составных изображений, которые формируются в данном объекте &lt;see c ... " />
+            <marker date="1558101009919" expanded="true" signature="14673:15455" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="14689:15025" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="15035:15449" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="15461:15744" ph="///   Возвращает или задает режим отрисовки для текста, связанного с данным объектом &lt;see cref=&quot;T:System.Drawing. ... " />
+            <marker date="1558101009919" expanded="true" signature="15791:16635" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="15807:16208" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="16218:16629" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="16641:16891" ph="///   Возвращает или задает значение гамма-коррекции для отрисовки текста. ... " />
+            <marker date="1558101009919" expanded="true" signature="16919:17501" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="16935:17257" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="17267:17495" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="17507:17769" ph="///   Возвращает или задает качество отрисовки данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="17808:18603" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="17824:18183" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="18193:18597" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="18609:18948" ph="///   Возвращает или задает значение, которое задает порядок смещения пикселей во время отрисовки данного объекта ... " />
+            <marker date="1558101009919" expanded="true" signature="18991:19808" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19007:19384" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19394:19802" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19844:19981" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19860:19912" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19922:19975" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="19987:20266" ph="///   Возвращает или задает режим интерполяции, связанный с данным объектом &lt;see cref=&quot;T:System.Drawing.Graphics&quot; ... " />
+            <marker date="1558101009919" expanded="true" signature="20313:21095" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="20329:20661" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="20671:21089" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="21101:21505" ph="///   Возвращает или задает копию геометрического мирового преобразования для данного объекта &lt;see cref=&quot;T:System ... " />
+            <marker date="1558101009919" expanded="true" signature="21533:22200" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="21549:21910" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="21920:22194" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="22206:22822" ph="///   Возвращает или задает единицу измерения для страничных координат в данном объекте &lt;see cref=&quot;T:System.Drawi ... " />
+            <marker date="1558101009919" expanded="true" signature="22855:23581" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="22871:23162" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="23172:23575" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="23587:23985" ph="///   Возвращает или задает масштабирование между мировыми и страничными единицами измерения для данного объекта  ... " />
+            <marker date="1558101009919" expanded="true" signature="24012:24566" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="24028:24325" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="24335:24560" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="24572:24883" ph="///   Возвращает горизонтальное разрешение данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="24905:25198" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="24921:25192" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="25204:25511" ph="///   Возвращает вертикальное разрешение данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="25533:25826" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="25549:25820" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="25832:26493" ph="///   Выполняет перемещение набора битов данных о цвете, соответствующих прямоугольнику пикселей, с экрана на пов ... " />
+            <marker date="1558101009919" expanded="true" signature="26616:26758" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="26764:27673" ph="///   Выполняет перемещение набора битов данных о цвете, соответствующих прямоугольнику пикселей, с экрана на пов ... " />
+            <marker date="1558101009919" expanded="true" signature="27819:27952" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="27958:28964" ph="///   Выполняет перемещение набора битов данных о цвете, соответствующих прямоугольнику пикселей, с экрана на пов ... " />
+            <marker date="1558101009919" expanded="true" signature="29132:29294" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="29300:30568" ph="///   Выполняет перемещение набора битов данных о цвете, соответствующих прямоугольнику пикселей, с экрана на пов ... " />
+            <marker date="1558101009919" expanded="true" signature="30759:33431" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="30830:31746" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="30906:31333" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="30982:31162" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="31410:31587" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="31814:32212" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="31887:32055" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="32277:32436" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="32989:33425" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="33147:33352" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="33368:33417" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="33437:33611" ph="///   Сбрасывает матрицу мирового преобразования данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; и делае ... " />
+            <marker date="1558101009919" expanded="true" signature="33644:33859" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="33865:34233" ph="///   Умножает мировое преобразование данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; на указываемый объ ... " />
+            <marker date="1558101009919" expanded="true" signature="34282:34353" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="34359:34907" ph="///   Умножает мировое преобразование данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; на указываемый объ ... " />
+            <marker date="1558101009919" expanded="true" signature="34975:35337" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="35343:35649" ph="///   Изменяет начало системы координат путем добавления заданного сдвига перед матрицей преобразования данного о ... " />
+            <marker date="1558101009919" expanded="true" signature="35704:35776" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="35782:36326" ph="///   Изменяет начало системы координат путем применения заданного сдвига к матрице преобразования данного объект ... " />
+            <marker date="1558101009919" expanded="true" signature="36400:36634" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="36640:37009" ph="///   Применяет заданную операцию масштабирования к матрице преобразования данного объекта &lt;see cref=&quot;T:System.Dr ... " />
+            <marker date="1558101009919" expanded="true" signature="37060:37128" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="37134:37699" ph="///   Применяет заданную операцию масштабирования к матрице преобразования данного объекта &lt;see cref=&quot;T:System.Dr ... " />
+            <marker date="1558101009919" expanded="true" signature="37769:37999" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="38005:38219" ph="///   Применяет заданный поворот к матрице преобразования данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="38264:38332" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="38338:38794" ph="///   Применяет заданный поворот к матрице преобразования данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="38858:39088" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="39094:39819" ph="///   Преобразует массив точек из одной системы координат в другую, используя текущие мировое и страничное преобр ... " />
+            <marker date="1558101009919" expanded="true" signature="39918:40626" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="40251:40553" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="40567:40620" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="40632:41356" ph="///   Преобразует массив точек из одной системы координат в другую, используя текущие мировое и страничное преобр ... " />
+            <marker date="1558101009919" expanded="true" signature="41454:42158" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="41788:42085" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="42099:42152" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="42164:42639" ph="///   Возвращает цвет, ближайший к указанной структуре &lt;see cref=&quot;T:System.Drawing.Color&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="42685:42992" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="42998:43652" ph="///   Проводит линию, соединяющую две точки, задаваемые парами координат. ... " />
+            <marker date="1558101009919" expanded="true" signature="43726:43993" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="43999:44723" ph="///   Проводит линию, соединяющую две структуры &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="44781:44847" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="44853:45581" ph="///   Рисует ряд сегментов линий, которые соединяют массив структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="45633:46159" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="46165:46819" ph="///   Проводит линию, соединяющую две точки, задаваемые парами координат. ... " />
+            <marker date="1558101009919" expanded="true" signature="46885:47153" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="47159:47880" ph="///   Проводит линию, соединяющую две структуры &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="47936:48002" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="48008:48734" ph="///   Рисует ряд сегментов линий, которые соединяют массив структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="48785:49312" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="49318:50590" ph="///   Рисует дугу, которая является частью эллипса, заданного парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="50747:51042" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="51048:52008" ph="///   Рисует дугу, которая является частью эллипса, заданного структурой &lt;see cref=&quot;T:System.Drawing.RectangleF&quot;  ... " />
+            <marker date="1558101009919" expanded="true" signature="52094:52196" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="52202:53732" ph="///   Рисует дугу, которая является частью эллипса, заданного парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="53877:54189" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="54195:55173" ph="///   Рисует дугу, которая является частью эллипса, заданного структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="55258:55392" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="55398:56523" ph="///   Строит сплайн Безье, определяемый четырьмя упорядоченными парами координат, которые представляют точки. ... " />
+            <marker date="1558101009919" expanded="true" signature="56694:56979" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="56985:58016" ph="///   Строит сплайн Безье, определяемый четырьмя структурами &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="58100:58196" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="58202:59025" ph="///   Строит последовательность сплайнов Безье из массива структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="59079:59607" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="59613:60639" ph="///   Строит сплайн Безье, определяемый четырьмя структурами &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="60719:60879" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="60885:61706" ph="///   Строит последовательность сплайнов Безье из массива структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="61759:62288" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="62294:62890" ph="///   Рисует прямоугольник, определяемый структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="62945:63029" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="63035:63840" ph="///   Рисует прямоугольник, определяемый парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="63924:64201" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="64207:65009" ph="///   Рисует прямоугольник, определяемый парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="65085:65363" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="65369:66251" ph="///   Рисует набор прямоугольников, определяемых структурами &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="66311:66842" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="66848:67728" ph="///   Рисует набор прямоугольников, определяемых структурами &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="67787:68319" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="68325:68910" ph="///   Рисует эллипс, определяемый ограничивающей структурой &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="68964:69046" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="69052:70047" ph="///   Рисует эллипс, определяемый ограничивающим прямоугольником, заданным с помощью пары координат, ширины и выс ... " />
+            <marker date="1558101009919" expanded="true" signature="70129:70404" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="70410:70993" ph="///   Рисует эллипс, определяемый ограничивающей структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="71046:71128" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="71134:72160" ph="///   Рисует эллипс, определяемый ограничивающим прямоугольником, заданным с помощью координат верхнего левого уг ... " />
+            <marker date="1558101009919" expanded="true" signature="72234:72510" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="72516:73606" ph="///   Рисует сектор, который определяется эллипсом, заданным структурой &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="73692:73794" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="73800:75313" ph="///   Рисует сектор, определяемый эллипсом, который задан парой координат, шириной, высотой и двумя радиальными л ... " />
+            <marker date="1558101009919" expanded="true" signature="75470:75765" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="75771:76859" ph="///   Рисует сектор, который определяется эллипсом, заданным структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; /&gt; ... " />
+            <marker date="1558101009919" expanded="true" signature="76944:77078" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="77084:78597" ph="///   Рисует сектор, определяемый эллипсом, который задан парой координат, шириной, высотой и двумя радиальными л ... " />
+            <marker date="1558101009919" expanded="true" signature="78742:79054" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="79060:79786" ph="///   Рисует многоугольник, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="79840:80368" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="80374:80978" ph="///   Рисует многоугольник, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="81031:81560" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="81566:82234" ph="///   Рисует объект &lt;see cref=&quot;T:System.Drawing.Drawing2D.GraphicsPath&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="82287:82665" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="82671:83382" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="83434:83960" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="83966:84842" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="84909:85445" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="85451:86518" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="86604:86683" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="86689:87893" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; / ... " />
+            <marker date="1558101009919" expanded="true" signature="88025:88587" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="88593:89303" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt; ... " />
+            <marker date="1558101009919" expanded="true" signature="89354:89881" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="89887:90733" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt; ... " />
+            <marker date="1558101009919" expanded="true" signature="90799:91336" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="91342:92480" ph="///   Строит фундаментальный сплайн через точки указанного массива структур &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt; ... " />
+            <marker date="1558101009919" expanded="true" signature="92611:93174" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="93180:93894" ph="///   Строит замкнутый фундаментальный сплайн, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; ... " />
+            <marker date="1558101009919" expanded="true" signature="93952:94484" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="94490:95589" ph="///   Строит замкнутый фундаментальный сплайн, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.PointF&quot; ... " />
+            <marker date="1558101009919" expanded="true" signature="95681:96223" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="96229:96941" ph="///   Строит замкнутый фундаментальный сплайн, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.Point&quot;  ... " />
+            <marker date="1558101009919" expanded="true" signature="96998:97531" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="97537:98634" ph="///   Строит замкнутый фундаментальный сплайн, определяемый массивом структур &lt;see cref=&quot;T:System.Drawing.Point&quot;  ... " />
+            <marker date="1558101009919" expanded="true" signature="98725:99268" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="99274:99574" ph="///   Очищает всю поверхность рисования и выполняет заливку поверхности указанным цветом фона. ... " />
+            <marker date="1558101009919" expanded="true" signature="99609:99834" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="99840:100443" ph="///   Заполняет внутреннюю часть прямоугольника, определяемого структурой &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; ... " />
+            <marker date="1558101009919" expanded="true" signature="100503:100589" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="100595:101402" ph="///   Заполняет внутреннюю часть прямоугольника, который задается парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="101490:101777" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="101783:102384" ph="///   Заполняет внутреннюю часть прямоугольника, определяемого структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot;  ... " />
+            <marker date="1558101009919" expanded="true" signature="102443:102529" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="102535:103342" ph="///   Заполняет внутреннюю часть прямоугольника, который задается парой координат, шириной и высотой. ... " />
+            <marker date="1558101009919" expanded="true" signature="103422:103710" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="103716:104612" ph="///   Заполняет внутреннюю часть набора прямоугольников, определяемых структурами &lt;see cref=&quot;T:System.Drawing.Rec ... " />
+            <marker date="1558101009919" expanded="true" signature="104676:105217" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="105223:106117" ph="///   Заполняет внутреннюю часть набора прямоугольников, определяемых структурами &lt;see cref=&quot;T:System.Drawing.Rec ... " />
+            <marker date="1558101009919" expanded="true" signature="106180:106722" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="106728:107495" ph="///   Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданных структурами &lt;see cref=&quot;T: ... " />
+            <marker date="1558101009919" expanded="true" signature="107553:107624" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="107630:108600" ph="///   Заполняет внутреннюю часть многоугольника, определенного массивом точек, которые задаются структурами &lt;see  ... " />
+            <marker date="1558101009919" expanded="true" signature="108677:109231" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="109237:110002" ph="///   Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданных структурами &lt;see cref=&quot;T: ... " />
+            <marker date="1558101009919" expanded="true" signature="110059:110130" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="110136:111104" ph="///   Заполняет внутреннюю часть многоугольника, определенного массивом точек, которые задаются структурами &lt;see  ... " />
+            <marker date="1558101009919" expanded="true" signature="111180:111735" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="111741:112413" ph="///   Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, который задан структурой  ... " />
+            <marker date="1558101009919" expanded="true" signature="112471:112555" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="112561:113570" ph="///   Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, заданным с помощью пары к ... " />
+            <marker date="1558101009919" expanded="true" signature="113656:113941" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="113947:114617" ph="///   Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, который задан структурой  ... " />
+            <marker date="1558101009919" expanded="true" signature="114674:114758" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="114764:115773" ph="///   Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, заданным с помощью пары к ... " />
+            <marker date="1558101009919" expanded="true" signature="115851:116137" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="116143:117246" ph="///   Заполняет внутреннюю часть сектора, определяемого эллипсом, который задан структурой &lt;see cref=&quot;T:System.Dr ... " />
+            <marker date="1558101009919" expanded="true" signature="117335:117471" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="117477:119007" ph="///   Заполняет внутреннюю часть сектора, определяемого эллипсом, который задан парой координат, шириной, высотой ... " />
+            <marker date="1558101009919" expanded="true" signature="119168:119473" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="119479:121009" ph="///   Заполняет внутреннюю часть сектора, определяемого эллипсом, который задан парой координат, шириной, высотой ... " />
+            <marker date="1558101009919" expanded="true" signature="121158:121480" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="121486:122188" ph="///   Заполняет внутреннюю часть объекта &lt;see cref=&quot;T:System.Drawing.Drawing2D.GraphicsPath&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="122245:122633" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="122639:123365" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной кривой, определяемой массивом структур &lt;see cref=&quot;T:Sy ... " />
+            <marker date="1558101009919" expanded="true" signature="123427:123969" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="123975:124918" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной сплайновой кривой, определяемой массивом структур &lt;see ... " />
+            <marker date="1558101009919" expanded="true" signature="124999:125070" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="125076:126145" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной сплайновой кривой, определяемой массивом структур &lt;see ... " />
+            <marker date="1558101009919" expanded="true" signature="126241:126809" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="126815:127539" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной кривой, определяемой массивом структур &lt;see cref=&quot;T:Sy ... " />
+            <marker date="1558101009919" expanded="true" signature="127600:128143" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="128149:129090" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной сплайновой кривой, определяемой массивом структур &lt;see ... " />
+            <marker date="1558101009919" expanded="true" signature="129170:129241" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="129247:130314" ph="///   Заполняет внутреннюю часть замкнутой фундаментальной сплайновой кривой, определяемой массивом структур &lt;see ... " />
+            <marker date="1558101009919" expanded="true" signature="130409:130978" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="130984:131659" ph="///   Заполняет внутреннюю часть объекта &lt;see cref=&quot;T:System.Drawing.Region&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="131714:132114" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="132120:133156" ph="///   Создает заданную текстовую строку в указанном месте с помощью заданных объектов &lt;see cref=&quot;T:System.Drawing ... " />
+            <marker date="1558101009919" expanded="true" signature="133235:133341" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="133347:134322" ph="///   Создает заданную текстовую строку в указанном месте с помощью заданных объектов &lt;see cref=&quot;T:System.Drawing ... " />
+            <marker date="1558101009919" expanded="true" signature="134397:134515" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="134521:135893" ph="///   Создает заданную текстовую строку в указанном месте с помощью заданных объектов &lt;see cref=&quot;T:System.Drawing ... " />
+            <marker date="1558101009919" expanded="true" signature="136030:136123" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="136129:137440" ph="///   Создает заданную текстовую строку в указанном месте с помощью заданных объектов &lt;see cref=&quot;T:System.Drawing ... " />
+            <marker date="1558101009919" expanded="true" signature="137536:137641" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="137647:138645" ph="///   Создает заданную текстовую строку в указанном прямоугольнике с помощью заданных объектов &lt;see cref=&quot;T:Syste ... " />
+            <marker date="1558101009919" expanded="true" signature="138734:138823" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="138829:140163" ph="///   Создает заданную текстовую строку в указанном прямоугольнике с помощью заданных объектов &lt;see cref=&quot;T:Syste ... " />
+            <marker date="1558101009919" expanded="true" signature="140304:140948" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="140954:142458" ph="///   Измеряет указанную строку при ее отображении с заданным шрифтом &lt;see cref=&quot;T:System.Drawing.Font&quot; /&gt; и отфо ... " />
+            <marker date="1558101009919" expanded="true" signature="142642:143488" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="142692:142801" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="143494:144832" ph="///   Измеряет указанную строку при ее отображении с заданным шрифтом &lt;see cref=&quot;T:System.Drawing.Font&quot; /&gt; и отфо ... " />
+            <marker date="1558101009919" expanded="true" signature="144954:145858" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="145864:146928" ph="///   Измеряет указанную строку в процессе ее создания с заданным шрифтом &lt;see cref=&quot;T:System.Drawing.Font&quot; /&gt; в  ... " />
+            <marker date="1558101009919" expanded="true" signature="147001:147091" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="147097:148440" ph="///   Измеряет указанную строку при ее отображении с заданным шрифтом &lt;see cref=&quot;T:System.Drawing.Font&quot; /&gt; и отфо ... " />
+            <marker date="1558101009919" expanded="true" signature="148565:149391" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="149397:150269" ph="///   Измеряет указанную строку в процессе ее создания с помощью заданного объекта &lt;see cref=&quot;T:System.Drawing.Fo ... " />
+            <marker date="1558101009919" expanded="true" signature="150324:150404" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="150410:151371" ph="///   Измеряет указанную строку в процессе ее создания с помощью заданного объекта &lt;see cref=&quot;T:System.Drawing.Fo ... " />
+            <marker date="1558101009919" expanded="true" signature="151437:151529" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="151535:152770" ph="///   Измеряет указанную строку при ее отображении с заданным шрифтом &lt;see cref=&quot;T:System.Drawing.Font&quot; /&gt; и отфо ... " />
+            <marker date="1558101009919" expanded="true" signature="152857:152957" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="152963:153924" ph="///   Возвращает массив объектов &lt;see cref=&quot;T:System.Drawing.Region&quot; /&gt;, каждый из которых ограничивает диапазон  ... " />
+            <marker date="1558101009919" expanded="true" signature="154066:155320" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="154766:154882" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="155326:155989" ph="///   Формирует изображение, представленное указанным объектом &lt;see cref=&quot;T:System.Drawing.Icon&quot; /&gt;, в указанных  ... " />
+            <marker date="1558101009919" expanded="true" signature="156039:156265" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="156271:157085" ph="///   Формирует изображение, представленное указанным объектом &lt;see cref=&quot;T:System.Drawing.Icon&quot; /&gt;, в пределах о ... " />
+            <marker date="1558101009919" expanded="true" signature="157143:157381" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="157387:158205" ph="///   Формирует изображение, представленное указанным объектом &lt;see cref=&quot;T:System.Drawing.Icon&quot; /&gt;, без его масш ... " />
+            <marker date="1558101009919" expanded="true" signature="158274:158531" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="158537:159157" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в указанном месте, используя его исходный факт ... " />
+            <marker date="1558101009919" expanded="true" signature="159210:159269" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="159275:159944" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в указанном месте, используя его исходный факт ... " />
+            <marker date="1558101009919" expanded="true" signature="160001:160363" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="160369:160970" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанный размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="161026:161108" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="161114:161906" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанный размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="161990:162371" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="162377:162989" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в указанном месте, используя его исходный факт ... " />
+            <marker date="1558101009919" expanded="true" signature="163041:163100" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="163106:163760" ph="///   Рисует указанное изображение, используя его исходный фактический размер, в месте, заданном парой координат. ... " />
+            <marker date="1558101009919" expanded="true" signature="163813:164176" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="164182:164782" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанный размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="164837:164919" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="164925:165717" ph="///   Рисует заданный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанный размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="165793:166175" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="166181:166751" ph="///   Рисует заданное изображение в заданном месте, используя его исходный фактический размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="166811:166870" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="166876:167530" ph="///   Рисует заданное изображение, используя его исходный фактический размер, в месте, указанном парой координат. ... " />
+            <marker date="1558101009919" expanded="true" signature="167591:167638" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="167644:168344" ph="///   Рисует заданное изображение в заданном месте, используя его исходный фактический размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="168407:168464" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="168470:169212" ph="///   Рисует заданное изображение в заданном месте, используя его исходный фактический размер. ... " />
+            <marker date="1558101009919" expanded="true" signature="169296:169343" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="169349:169966" ph="///   Рисует заданное изображение без масштабирования и при необходимости обрезает его, чтобы оно вмещалось в ука ... " />
+            <marker date="1558101009919" expanded="true" signature="170039:170330" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="170336:170928" ph="///   Рисует указанный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанную форму и ... " />
+            <marker date="1558101009919" expanded="true" signature="170988:171851" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="171228:171845" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="171857:172448" ph="///   Рисует указанный объект &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя указанную форму и ... " />
+            <marker date="1558101009919" expanded="true" signature="172507:173371" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="172747:173365" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="173377:174346" ph="///Рисует часть изображения в заданном месте. ... " />
+            <marker date="1558101009919" expanded="true" signature="174476:174915" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="174921:175877" ph="///Рисует часть изображения в заданном месте. ... " />
+            <marker date="1558101009919" expanded="true" signature="175971:176411" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="176417:177493" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="177620:178199" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="178205:179279" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="179404:179984" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="179990:180978" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="181105:182114" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="181318:182108" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="182120:183318" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="183478:183595" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="183601:185370" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="185570:185665" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="185671:187948" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="188172:189256" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="188385:189250" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="189262:190248" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="190373:190503" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="190509:191678" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте. ... " />
+            <marker date="1558101009919" expanded="true" signature="191836:191953" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="191959:193725" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="193923:194018" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="194024:196132" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="196354:197439" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="196567:197433" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="197445:198819" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="199000:199117" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="199123:200708" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="200923:201060" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="201066:203253" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="203508:203636" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="203642:206125" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="206407:207067" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="207073:208447" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="208620:208737" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="208743:210327" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="210533:210669" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="210675:212853" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="213099:213226" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="213232:215711" ph="///   Рисует заданную часть указанного объекта &lt;see cref=&quot;T:System.Drawing.Image&quot; /&gt; в заданном месте, используя  ... " />
+            <marker date="1558101009919" expanded="true" signature="215985:216614" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="216620:217334" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="217465:217551" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="217557:218503" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="218661:218772" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="218778:219947" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="220138:220694" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="220700:221413" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="221543:221629" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="221635:222580" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="222737:222848" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="222854:224022" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="224212:224768" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="224774:225493" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="225627:225712" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="225718:226669" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="226830:226940" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="226946:228124" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="228318:228912" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="228918:229636" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="229769:229854" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="229860:230810" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="230970:231080" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="231086:232263" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="232456:233049" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="233055:233816" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="233950:234037" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="234043:235036" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="235197:235308" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="235314:236534" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="236728:237619" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="237625:238385" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="238518:238605" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="238611:239603" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="239763:239875" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="239881:241100" ph="///   Отправляет записи указанного объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по одной записи за ра ... " />
+            <marker date="1558101009919" expanded="true" signature="241293:242185" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="242191:243431" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="243616:243720" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="243726:245198" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="245410:245539" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="245545:247237" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="247479:248115" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="248121:249359" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="249542:249646" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="249652:251122" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="251332:251461" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="251467:253157" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="253397:254070" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="254076:255325" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="255513:255616" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="255622:257103" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="257318:257446" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="257452:259153" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="259398:260072" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="260078:261325" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="261511:261614" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="261620:263099" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="263312:263440" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="263446:265145" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="265388:266059" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="266065:267358" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="267546:267651" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="267657:269180" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="269395:269525" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="269531:271274" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="271519:272490" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="272496:273785" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="273971:274076" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="274082:275603" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="275816:275946" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="275952:277693" ph="///   Отправляет записи в выбранном прямоугольнике из объекта &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt; по ... " />
+            <marker date="1558101009919" expanded="true" signature="277936:278906" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="278912:279302" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; значение свой ... " />
+            <marker date="1558101009919" expanded="true" signature="279338:279394" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="279400:280055" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; результат ука ... " />
+            <marker date="1558101009919" expanded="true" signature="280116:280459" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="280465:280830" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; прямоугольник ... " />
+            <marker date="1558101009919" expanded="true" signature="280870:280929" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="280935:281529" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; результат ука ... " />
+            <marker date="1558101009919" expanded="true" signature="281594:281856" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="281862:282229" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; прямоугольник ... " />
+            <marker date="1558101009919" expanded="true" signature="282270:282329" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="282335:282931" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; результат ука ... " />
+            <marker date="1558101009919" expanded="true" signature="282997:283258" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="283264:283632" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; указанный объ ... " />
+            <marker date="1558101009919" expanded="true" signature="283675:283734" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="283740:284336" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; результат ука ... " />
+            <marker date="1558101009919" expanded="true" signature="284404:284751" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="284757:285326" ph="///   Задает в качестве отсеченной области данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; результат ука ... " />
+            <marker date="1558101009919" expanded="true" signature="285390:285749" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="285755:286156" ph="///   Обновляет отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;, включая в нее пересе ... " />
+            <marker date="1558101009919" expanded="true" signature="286202:286474" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="286480:286883" ph="///   Обновляет отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;, включая в нее пересе ... " />
+            <marker date="1558101009919" expanded="true" signature="286930:287201" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="287207:287589" ph="///   Обновляет отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;, включая в нее пересе ... " />
+            <marker date="1558101009919" expanded="true" signature="287634:288003" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="288009:288408" ph="///   Обновляет отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;, чтобы исключить из н ... " />
+            <marker date="1558101009919" expanded="true" signature="288452:288722" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="288728:289114" ph="///   Обновляет отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt;, чтобы исключить из н ... " />
+            <marker date="1558101009919" expanded="true" signature="289157:289524" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="289530:289684" ph="///   Сбрасывает отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; и делает ее бесконеч ... " />
+            <marker date="1558101009919" expanded="true" signature="289712:289917" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="289923:290226" ph="///   Сдвигает отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; на указанные значения  ... " />
+            <marker date="1558101009919" expanded="true" signature="290276:290493" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="290499:290802" ph="///   Сдвигает отсеченную область данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; на указанные значения  ... " />
+            <marker date="1558101009919" expanded="true" signature="290848:291081" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="291087:291283" ph="///Возвращает кумулятивный контекст графики. ... " />
+            <marker date="1558101009919" expanded="true" signature="291511:293036" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="291693:291820" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="291920:292857" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="292032:292359" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="292388:292516" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="292970:293029" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="293042:293459" ph="///   Возвращает или задает объект &lt;see cref=&quot;T:System.Drawing.Region&quot; /&gt;, ограничивающий область рисования данно ... " />
+            <marker date="1558101009919" expanded="true" signature="293482:293901" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="293498:293819" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="293829:293895" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="293907:294339" ph="///   Возвращает структуру &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; /&gt;, которая  ограничивает отсеченную область д ... " />
+            <marker date="1558101009919" expanded="true" signature="294372:294709" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="294388:294703" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="294715:295126" ph="///   Возвращает значение, которое указывает, является ли отсеченная область данного объекта &lt;see cref=&quot;T:System. ... " />
+            <marker date="1558101009919" expanded="true" signature="295154:295463" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="295170:295457" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="295469:295870" ph="///   Возвращает ограничивающий прямоугольник видимой отсеченной области данного объекта &lt;see cref=&quot;T:System.Draw ... " />
+            <marker date="1558101009919" expanded="true" signature="295910:296520" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="295926:296514" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="295975:296179" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="296526:296959" ph="///   Возвращает значение, которое указывает, является ли видимая отсеченная область данного объекта &lt;see cref=&quot;T ... " />
+            <marker date="1558101009919" expanded="true" signature="296994:297310" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="297010:297304" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="297316:298032" ph="///   Указывает, содержится ли точка, задаваемая с помощью пары координат, в видимой отсеченной области данного о ... " />
+            <marker date="1558101009919" expanded="true" signature="298072:298130" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="298136:298769" ph="///   Указывает, содержится ли заданная структура &lt;see cref=&quot;T:System.Drawing.Point&quot; /&gt; в видимой отсеченной обла ... " />
+            <marker date="1558101009919" expanded="true" signature="298808:299103" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="299109:299825" ph="///   Указывает, содержится ли точка, задаваемая с помощью пары координат, в видимой отсеченной области данного о ... " />
+            <marker date="1558101009919" expanded="true" signature="299869:299928" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="299934:300569" ph="///   Указывает, содержится ли заданная структура &lt;see cref=&quot;T:System.Drawing.PointF&quot; /&gt; в видимой отсеченной обл ... " />
+            <marker date="1558101009919" expanded="true" signature="300609:300903" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="300909:301984" ph="///   Указывает, содержится ли прямоугольник, задаваемый с помощью пары координат, ширины и высоты, в видимой отс ... " />
+            <marker date="1558101009919" expanded="true" signature="302047:302124" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="302130:302796" ph="///   Указывает, содержится ли прямоугольник, задаваемый структурой &lt;see cref=&quot;T:System.Drawing.Rectangle&quot; /&gt;, в  ... " />
+            <marker date="1558101009919" expanded="true" signature="302838:303155" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="303161:304236" ph="///   Указывает, содержится ли прямоугольник, задаваемый с помощью пары координат, ширины и высоты, в видимой отс ... " />
+            <marker date="1558101009919" expanded="true" signature="304307:304385" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="304391:305059" ph="///   Указывает, содержится ли прямоугольник, задаваемый структурой &lt;see cref=&quot;T:System.Drawing.RectangleF&quot; /&gt;, в ... " />
+            <marker date="1558101009919" expanded="true" signature="305102:305418" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="305473:305673" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="305519:305629" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="305727:306082" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="305869:306076" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="305935:306068" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="306088:306551" ph="///   Сохраняет текущее состояние данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; и связывает сохраненно ... " />
+            <marker date="1558101009919" expanded="true" signature="306608:307111" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="306839:306944" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="307117:307574" ph="///   Восстанавливает состояние данного объекта &lt;see cref=&quot;T:System.Drawing.Graphics&quot; /&gt; в состояние, представлен ... " />
+            <marker date="1558101009919" expanded="true" signature="307645:307919" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="307925:309063" ph="///   Сохраняет графический контейнер, содержащий текущее состояние данного объекта &lt;see cref=&quot;T:System.Drawing.G ... " />
+            <marker date="1558101009919" expanded="true" signature="309185:309766" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="309550:309655" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="309772:310238" ph="///   Сохраняет графический контейнер, содержащий текущее состояние данного объекта &lt;see cref=&quot;T:System.Drawing.G ... " />
+            <marker date="1558101009919" expanded="true" signature="310284:310734" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="310518:310623" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="310740:311192" ph="///   Закрывает текущий графический контейнер и восстанавливает состояние данного объекта &lt;see cref=&quot;T:System.Dra ... " />
+            <marker date="1558101009919" expanded="true" signature="311250:311641" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="311647:312743" ph="///   Сохраняет графический контейнер, содержащий текущее состояние данного объекта &lt;see cref=&quot;T:System.Drawing.G ... " />
+            <marker date="1558101009919" expanded="true" signature="312863:313439" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="313223:313328" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="313445:313652" ph="///   Добавляет комментарий к текущему объекту &lt;see cref=&quot;T:System.Drawing.Imaging.Metafile&quot; /&gt;. ... " />
+            <marker date="1558101009919" expanded="true" signature="313700:314002" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="314008:314213" ph="///   Возвращает дескриптор текущей полутоновой палитры Windows. ... " />
+            <marker date="1558101009919" expanded="true" signature="314259:314868" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="314316:314823" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="314424:314805" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="314959:315184" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315231:315787" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315260:315781" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315308:315711" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315412:315701" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315860:315992" ph="{...}" />
+            <marker date="1558101009919" expanded="true" signature="315998:316984" ph="///   Предоставляет метод обратного вызова в случае, когда &lt;see cref=&quot;Overload:System.Drawing.Graphics.DrawImage&quot; ... " />
+            <marker date="1558101009919" expanded="true" signature="317052:317881" ph="///   Предоставляет метод обратного вызова для &lt;see cref=&quot;Overload:System.Drawing.Graphics.EnumerateMetafile&quot; /&gt;  ... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/5b/224a6ffe/RuntimeType.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <marker date="1558083952773" expanded="true" signature="6:44" ph="..." />
-            <marker date="1558083952773" expanded="true" signature="74:425" ph="{...}" />
-            <marker date="1558083952773" expanded="true" signature="128:423" ph="{...}" />
-            <marker date="1558083952773" expanded="true" signature="182:408" ph="{...}" />
-          </folding>
+        <state relative-caret-position="169">
+          <caret line="1121" column="8" selection-start-line="1121" selection-start-column="8" selection-end-line="1121" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Program.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B94BFA9-2F0F-4D80-A8F7-ACA56A6424C9/75/d57933f4/ResourceManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <marker date="1558009047370" expanded="false" signature="6:124" ph="..." />
-            <marker date="1558009047370" expanded="true" signature="148:509" ph="{...}" />
-            <marker date="1558009047370" expanded="true" signature="175:507" ph="{...}" />
-            <marker date="1558009047370" expanded="true" signature="190:280" ph="/// The main entry point for the application. ... " />
-            <marker date="1558009047370" expanded="true" signature="327:501" ph="{...}" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="978" column="6" selection-start-line="978" selection-start-column="6" selection-end-line="978" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Properties/Settings.Designer.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/22C94F06-2DCB-4CA3-A923-4A52A54BD0DA/70/95242d44/Rectangle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <marker date="1558083160319" expanded="true" signature="6:69" ph="..." />
-            <marker date="1558083160319" expanded="true" signature="99:822" ph="{...}" />
-            <marker date="1558083160319" expanded="true" signature="122:820" ph="{...}" />
-            <marker date="1558083160319" expanded="true" signature="224:452" ph="{...}" />
-            <marker date="1558083160319" expanded="true" signature="736:805" ph="{...}" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Form.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/8a/bc9e8e80/Panel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-          <folding>
-            <marker date="1558083952723" expanded="true" signature="6:173" ph="..." />
-            <marker date="1558083952723" expanded="true" signature="204:1468" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="239:1466" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="498:586" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="627:1125" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="684:1115" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="913:1100" ph="/* Когда построили новую башню уведомить сущность ... */" />
-            <marker date="1558083952723" expanded="true" signature="1170:1450" ph="{...}" />
-            <marker date="1558083952723" expanded="true" signature="1232:1440" ph="{...}" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+        <state relative-caret-position="163">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <marker date="1558082859544" expanded="true" signature="6:137" ph="..." />
             <marker date="1558082859544" expanded="true" signature="167:1648" ph="{...}" />
@@ -498,42 +1258,346 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs">
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/Grass.Cursor.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/Grass.png" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/b0/ce4ee661/Application.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="186">
+          <caret line="1637" column="20" selection-start-line="1637" selection-start-column="20" selection-end-line="1637" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/15/9a129ddc/NativeWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="566" column="6" selection-start-line="566" selection-start-column="6" selection-end-line="566" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/24/448e75b1/Control.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13124" column="8" selection-start-line="13124" selection-start-column="8" selection-end-line="13124" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/27/ee22cd7c/ScrollableControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1195" column="10" selection-start-line="1195" selection-start-column="10" selection-end-line="1195" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/67/9e8ab7a3/KeyEventArgs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03062.00/Source/ndp/fx/src/commonui/System/Drawing/Point.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/Peasant.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/tank_explosion2.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/View/ScaledViewPanel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <marker date="1558083952748" expanded="true" signature="28:206" ph="{...}" />
-            <marker date="1558083952748" expanded="true" signature="59:204" ph="{...}" />
-            <marker date="1558083952748" expanded="true" signature="99:152" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="6:80" ph="..." />
+            <marker date="1558644242152" expanded="true" signature="104:2151" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="147:2149" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="499:568" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="602:695" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="903:1022" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="1057:1254" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="1324:2143" ph="{...}" />
+            <marker date="1558644242152" expanded="true" signature="1518:1894" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/bin/Debug/PNG/Default size/tanks_tankDesert5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/tank_bulletFly4.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/bin/Debug/PNG/Default size/tank_bullet6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.properties" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/tanks_tankDesert3.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Images/crossair_black.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Properties/crossair_black.png" />
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <marker date="1558169395235" expanded="true" signature="6:124" ph="..." />
+            <marker date="1558169395235" expanded="true" signature="148:510" ph="{...}" />
+            <marker date="1558169395235" expanded="true" signature="175:508" ph="{...}" />
+            <marker date="1558169395235" expanded="true" signature="190:280" ph="/// The main entry point for the application. ... " />
+            <marker date="1558169395235" expanded="true" signature="327:502" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/App.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+          <folding>
+            <marker date="1558677768250" expanded="true" signature="0:408" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1558677768250" expanded="true" signature="444:5829" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="478:595" ph="///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д. ... " />
+            <marker date="1558677768250" expanded="true" signature="600:877" ph="/* Этот класс создан автоматически классом StronglyTypedResourceBuilder ... */" />
+            <marker date="1558677768250" expanded="true" signature="1174:5827" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="1525:1536" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="1554:1684" ph="///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом. ... " />
+            <marker date="1558677768250" expanded="true" signature="1892:2273" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="1910:2263" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="1975:2213" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="2291:2495" ph="///   Перезаписывает свойство CurrentUICulture текущего потока для всех ... " />
+            <marker date="1558677768250" expanded="true" signature="2695:2851" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="2713:2768" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="2785:2841" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="2869:2977" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="3030:3210" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3048:3200" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3228:3336" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="3389:3569" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3407:3559" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3587:3695" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="3749:3930" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3767:3920" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="3948:4056" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="4118:4307" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="4136:4297" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="4325:4433" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="4493:4680" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="4511:4670" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="4698:4806" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="4869:5059" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="4887:5049" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="5077:5185" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="5249:5440" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="5267:5430" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="5458:5566" ph="///   Поиск локализованного ресурса типа System.Drawing.Bitmap. ... " />
+            <marker date="1558677768250" expanded="true" signature="5630:5821" ph="{...}" />
+            <marker date="1558677768250" expanded="true" signature="5648:5811" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/TowerDefence.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558009047019" expanded="true" signature="6:101" ph="..." />
+            <marker date="1558009047019" expanded="true" signature="103:289" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1558009047019" expanded="true" signature="600:808" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1558009047019" expanded="true" signature="983:1308" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA9F80AC-8A05-4679-AFD3-0D068A4314C6/43/02679f2e/Padding.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/View/ScenePainter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <marker date="1558690579007" expanded="false" signature="6:144" ph="..." />
+            <marker date="1558690579007" expanded="true" signature="168:2905" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="200:2903" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="737:851" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="894:999" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="1050:2130" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="1532:1984" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="2168:2897" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="2454:2874" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="2529:2860" ph="{...}" />
+            <marker date="1558690579007" expanded="true" signature="2625:2842" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TowerDefence/Controller/MainController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="810">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding>
-            <marker date="1558083952670" expanded="true" signature="6:105" ph="..." />
-            <marker date="1558083952670" expanded="true" signature="140:795" ph="{...}" />
-            <marker date="1558083952670" expanded="true" signature="174:793" ph="{...}" />
-            <marker date="1558083952670" expanded="true" signature="243:599" ph="{...}" />
-            <marker date="1558083952670" expanded="true" signature="660:787" ph="{...}" />
-            <marker date="1558083952670" expanded="true" signature="720:777" ph="/* notify view ... */" />
+            <marker date="1558690399948" expanded="true" signature="6:236" ph="..." />
+            <marker date="1558690399948" expanded="true" signature="271:2847" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="305:2845" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="671:947" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="992:1095" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1134:1307" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1172:1275" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1345:1935" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1435:1596" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1642:1808" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1718:1794" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="1966:2115" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="2035:2105" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="2178:2484" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="2307:2474" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="2544:2839" ph="{...}" />
+            <marker date="1558690399948" expanded="true" signature="2750:2829" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/TowerEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <marker date="1558682829446" expanded="true" signature="6:40" ph="..." />
+            <marker date="1558682829446" expanded="true" signature="70:878" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="101:876" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="204:265" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="301:870" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="353:860" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="413:846" ph="{...}" />
+            <marker date="1558682829446" expanded="true" signature="726:827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <marker date="1558686861345" expanded="true" signature="6:88" ph="..." />
+            <marker date="1558686861345" expanded="true" signature="118:1207" ph="{...}" />
+            <marker date="1558686861345" expanded="true" signature="141:1205" ph="{...}" />
+            <marker date="1558686861345" expanded="true" signature="257:551" ph="{...}" />
+            <marker date="1558686861345" expanded="true" signature="924:1028" ph="{...}" />
+            <marker date="1558686861345" expanded="true" signature="1073:1190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Cursor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <marker date="1558685808496" expanded="true" signature="6:106" ph="..." />
+            <marker date="1558685808496" expanded="true" signature="136:1629" ph="{...}" />
+            <marker date="1558685808496" expanded="true" signature="162:1627" ph="{...}" />
+            <marker date="1558685808496" expanded="true" signature="272:1620" ph="{...}" />
+            <marker date="1558685808496" expanded="true" signature="409:1586" ph="{...}" />
+            <marker date="1558685808496" expanded="true" signature="1353:1544" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <marker date="1558687339181" expanded="true" signature="6:173" ph="..." />
+            <marker date="1558687339181" expanded="true" signature="204:1725" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="239:1723" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="568:769" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="807:895" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="932:1220" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="982:1101" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="1265:1555" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="1327:1545" ph="{...}" />
+            <marker date="1558687339181" expanded="true" signature="1592:1717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/View/TDForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+          <folding>
+            <marker date="1558689429775" expanded="false" signature="6:173" ph="..." />
+            <marker date="1558689429775" expanded="true" signature="197:3660" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="230:3658" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="541:765" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="790:2609" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="1125:1395" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="1447:1717" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="1770:2046" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="2668:2747" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="2788:2855" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="2914:2983" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="3029:3102" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="3162:3652" ph="{...}" />
+            <marker date="1558689429775" expanded="true" signature="3214:3364" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TowerDefence/Model/AttackingEntity_Should.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding>
-            <marker date="1558083160267" expanded="true" signature="6:68" ph="..." />
-            <marker date="1558083160267" expanded="true" signature="98:653" ph="{...}" />
-            <marker date="1558083160267" expanded="true" signature="158:651" ph="{...}" />
-            <marker date="1558083160267" expanded="true" signature="234:645" ph="{...}" />
+            <marker date="1558682829511" expanded="true" signature="6:68" ph="..." />
+            <marker date="1558682829511" expanded="true" signature="98:718" ph="{...}" />
+            <marker date="1558682829511" expanded="true" signature="158:716" ph="{...}" />
+            <marker date="1558682829511" expanded="true" signature="234:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/Map_should.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <marker date="1558682829418" expanded="true" signature="6:44" ph="..." />
+            <marker date="1558682829418" expanded="true" signature="74:876" ph="{...}" />
+            <marker date="1558682829418" expanded="true" signature="122:874" ph="{...}" />
+            <marker date="1558682829418" expanded="true" signature="264:442" ph="{...}" />
+            <marker date="1558682829418" expanded="true" signature="498:647" ph="{...}" />
+            <marker date="1558682829418" expanded="true" signature="709:868" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowerDefence/Model/WideSearchShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <marker date="1558631826494" expanded="true" signature="6:44" ph="..." />
+            <marker date="1558631826494" expanded="true" signature="74:440" ph="{...}" />
+            <marker date="1558631826494" expanded="true" signature="128:438" ph="{...}" />
+            <marker date="1558631826494" expanded="true" signature="182:423" ph="{...}" />
           </folding>
         </state>
       </provider>

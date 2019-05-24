@@ -12,40 +12,51 @@ namespace TowerDefence.Model
     {
         public MainController CurrentController { get; set; }
         public List<Point> CurrentPath { get; private set; }
-        public int Speed { get; }
+        public int Health { get; set; }
         public Point CurrentPosition { get; set; }
+        public Map map { get; set; }
 
-        public void GetCurrentPath(Map map)
+        public AttackingEntity(Map map, MainController mainController)
+        {
+            CurrentController = mainController;
+            this.map = map;
+            CurrentPosition = map.StartPosition;
+            GetCurrentPath();
+            Health = 100;
+        }
+
+        public void GetCurrentPath()
         {
             CurrentPath = FindPaths(map, CurrentPosition).ToList();
         }
 
-        public void GoToFinish(Map map)
+        public void GoToNextPoint()
         {
-            foreach (var point in CurrentPath)
+            if (CurrentPath.Count != 0)
             {
-                Thread.Sleep(1000);
-                CurrentPosition = point;
-                //notify view
-                if (point == map.FinishPosition) CurrentController.OnFinishReached(this);
-
-                //Когда построили новую башню уведомить сущность
-                //если новый поиск в ширину дал такой же результат, то ничего не менять,
-                // иначе запускать другой маршрут
-
+                CurrentPosition = CurrentPath[0];
+                CurrentPath.RemoveAt(0);
             }
+
+            if (CurrentPosition == map.FinishPosition)
+                CurrentController.OnFinishReached();
         }
 
         public void OnTowersChange(Map map)
         {
-            foreach (var point in map.TowersPoints)
+            foreach (var tower in map.TowersPoints)
             {
-                if (CurrentPath.Contains(point))
-                    GetCurrentPath(map);
+                if (CurrentPath.Contains(tower.CurrentPoint))
+                    GetCurrentPath();
                 //не забить про удаление поинтов из листа, когда мы уже прошли эту клетку
             }
         }
 
-        
+        public void OnDamageTaken()
+        {
+            Health -= 20;
+            if (Health <= 0)
+                CurrentController.OnKilled(this);
+        }
     }
 }

@@ -10,11 +10,11 @@ namespace TowerDefence.Model
         [Test]
         public void EntityGoToFinishReactOnEditTower()
         {
-            var map = new Map(4,4,new Point(0,0),new Point(3,3),1);
-            var attackingEntity = new AttackingEntity();
-            attackingEntity.GetCurrentPath(map);
+            var map = new Map(4,4,new Point(0,0),new Point(3,3),1,new Point(0,0));
+            var attackingEntity = new AttackingEntity(map, new Controller.MainController());
+            attackingEntity.GetCurrentPath();
             var towerPoint = new Point(1, 0);
-            map.TowersPoints.Add(towerPoint);
+            map.TowersPoints.Add(new TowerEntity(towerPoint));
             attackingEntity.OnTowersChange(map);
             Assert.False(attackingEntity.CurrentPath.Contains(towerPoint));
         }
