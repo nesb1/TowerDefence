@@ -14,7 +14,7 @@ namespace TowerDefence.Controller
         public Map CurrentMap { get; set; }
         private AttackingEntity AttackingEntity;
         private int tickCount;
-        public int Gold = 80;
+        public int Gold = 180;
         public bool isGameEnd;
         public int Lives = 1;
         private int TanksCount = 5;
@@ -65,7 +65,7 @@ namespace TowerDefence.Controller
                     ae.GoToNextPoint();
                 }
             }
-            if (tickCount%32 ==0)
+            if (tickCount%50 ==0)
                 Attack();
 
             tickCount++;
@@ -87,9 +87,9 @@ namespace TowerDefence.Controller
             if (TanksCount == 0)
             {
                 level++;
-                if (levelSpeed >= 1)
-                    levelSpeed -= 6;
-                TanksCount = level * 5;
+                if (levelSpeed >=6)
+                    levelSpeed -= 5;
+                TanksCount = level * 10;
             }
         }
 
